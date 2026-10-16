@@ -804,3 +804,48 @@ header.top .wrap {
 		justify-self: start
 	}
 }
+
+/* ===== quiz com várias perguntas ===== */
+.quiz .qp {
+	color: var(--mut);
+	font-size: .9rem;
+	font-weight: 600;
+	margin-bottom: .5rem
+}
+
+.quiz .bar {
+	height: 6px;
+	background: var(--ln);
+	border-radius: 9px;
+	overflow: hidden;
+	margin-bottom: 1.1rem
+}
+
+.quiz .bar i {
+	display: block;
+	height: 100%;
+	background: var(--ac);
+	transition: width .3s
+}
+
+.quiz .nx {
+	display: inline-block;
+	width: auto;
+	background: var(--ink);
+	color: var(--bg);
+	font-weight: 700;
+	margin-top: 1rem
+}
+
+.quiz .sc {
+	font-size: 2.6rem;
+	font-weight: 800;
+	letter-spacing: -.03em;
+	line-height: 1.1;
+	margin-bottom: .5rem;
+	color: var(--ink)
+}
+
+.quiz [hidden] {
+	display: none
+}
